@@ -6,6 +6,24 @@ body {
   font-size: 16px;
 }
 
+h6 {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+p {
+  font-size: 16px;
+  color: #465b52;
+  margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+  padding: 40px 80px;
+}
+.section-m1 {
+  padding: 40px 80px;
+}
+
 /* Header Start */
 
 #header {
@@ -88,34 +106,92 @@ body {
   font-size: 15px;
 }
 
+#feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#feature .fe-box {
+  width: 280px;
+  text-align: center;
+  padding: 25px 15px;
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+  border: 1px solid #cce7d0;
+  border-radius: 4px;
+  margin: 15px 0;
+}
+
+#feature .fe-box:hover {
+  box-shadow: -10px 10px 54px rgba(70, 62, 221, 0.3);
+  z-index: 1000;
+  cursor: pointer;
+}
+
+#feature .fe-box img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#feature .fe-box h6 {
+  padding: 9px 8px;
+  line-height: 1;
+  border-radius: 4px;
+  color: #088178;
+  background-color: #e98899;
+}
+
+#feature .fe-box:nth-child(2) h6 {
+  background-color: #cdebbc;
+}
+#feature .fe-box:nth-child(3) h6 {
+  background-color: #d6bceb;
+}
+#feature .fe-box:nth-child(4) h6 {
+  background-color: #bcd9eb;
+}
+#feature .fe-box:nth-child(5) h6 {
+  background-color: #dfbceb;
+}
+#feature .fe-box:nth-child(6) h6 {
+  background-color: #ebbcbc;
+}
+
 /* Hero Section Text Adjustment */
 .heroH1 {
   font-size: 5rem;
   padding: 0 !important;
   margin-top: -25px;
+  margin-left: 10%;
 }
 .heroH2 {
   font-size: 3.75rem;
   padding: 0 !important;
   margin-top: -25px;
+  margin-left: 10%;
 }
 .heroH4 {
   font-size: 2rem;
   padding: 0 !important;
   margin-top: -25px;
   text-align: center;
-  margin-left: 12px;
+  margin-left: 10%;
 }
 .heroP {
   font-size: 1.5rem;
   padding: 0 !important;
   margin-top: -25px;
-  margin-left: 5px;
+  margin-left: 10%;
 }
 #shop {
   margin-left: 2.5%;
   font-size: 2.5rem !important;
   padding: 4px;
+  margin-left: 10%;
+  box-shadow: -7px -2px 15px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -7px -2px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -7px -2px 15px 0px rgba(0, 0, 0, 0.75);
 }
 #shop:hover {
   color: rgb(0, 0, 0);
@@ -123,3 +199,5 @@ body {
 }
 
 /* Hero Section Text Adjustment End */
+
+/* Shop Page */
